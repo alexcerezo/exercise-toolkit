@@ -38,6 +38,7 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
+          ref: main
 
       - name: Build congratulations message from template
         id: build-new-readme
@@ -72,6 +73,7 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
+          ref: main
 
       - name: Build message - exercise finished
         id: build-finish-message

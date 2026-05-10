@@ -66,6 +66,7 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
+          ref: main
 
       - name: Get template repository
         id: get-template-repo
