@@ -29,9 +29,6 @@ permissions:
   actions: write # Disable workflows
   issues: write # Create issue
 
-env:
-  EXERCISE_TOOLKIT_REF: 2bed354b84a2633bc05cb5d6c8658bfa47345445
-
 jobs:
   disable_workflows:
     name: Disable exercise workflows
@@ -67,9 +64,8 @@ jobs:
       - name: Get response templates
         uses: actions/checkout@v6
         with:
-          repository: skills/exercise-toolkit
+          repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
-          ref: ${{ env.EXERCISE_TOOLKIT_REF }}
 
       - name: Get template repository
         id: get-template-repo

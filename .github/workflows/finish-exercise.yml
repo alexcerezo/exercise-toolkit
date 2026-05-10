@@ -21,9 +21,6 @@ permissions:
   contents: write
   issues: write
 
-env:
-  EXERCISE_TOOLKIT_REF: 2bed354b84a2633bc05cb5d6c8658bfa47345445
-
 jobs:
   update_readme:
     name: Update README with congratulations
@@ -39,9 +36,8 @@ jobs:
       - name: Get response templates
         uses: actions/checkout@v6
         with:
-          repository: skills/exercise-toolkit
+          repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
-          ref: ${{ env.EXERCISE_TOOLKIT_REF }}
 
       - name: Build congratulations message from template
         id: build-new-readme
@@ -74,9 +70,8 @@ jobs:
       - name: Get response templates
         uses: actions/checkout@v6
         with:
-          repository: skills/exercise-toolkit
+          repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
-          ref: ${{ env.EXERCISE_TOOLKIT_REF }}
 
       - name: Build message - exercise finished
         id: build-finish-message
