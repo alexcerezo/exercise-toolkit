@@ -1,10 +1,10 @@
 <img src="https://octodex.github.com/images/welcometocat.png" align="left" height="150px" />
 
-Congratulations @{{ login }}! You finished the exercise! 🎉🎉🎉
+Enhorabuena @{{ login }}! Has terminado el ejercicio! 🎉🎉🎉
 {% if readme_updated %}
-We've updated the repository with a couple changes to highlight your success!
+He actualizado el repositorio con algunos cambios!
 
-Return to the [repository home](/{{ repo_full_name }}) page to see your progress!
+Vuelva a [repository home](/{{ repo_full_name }}) para ver tu progreso!
 {%- else %}
-You've successfully completed all the steps. Well done!
+Has completado todos los pasos. Bien hecho!
 {%- endif %}

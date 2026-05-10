@@ -15,9 +15,9 @@
 {%- else %}
 
 <img src="https://octodex.github.com/images/spidertocat.png" align="right" height="100px" alt="Spidertocat image indicating the step failed" />
-Some checks failed. Please review the results below and try again.
+Alguna verificación ha fallado. Verifica los resultados e inténtalo de nuevo.
 
-Time to find the bug! 🤔
+Es la hora de encontrar el error! 🤔
 {%- endif %}
 
 | Status | Description |
@@ -29,7 +29,7 @@ Time to find the bug! 🤔
 
 {%- if tips and tips.length %}
 
-### Tips
+### Consejos
 
 {%- for tip in tips %}
 

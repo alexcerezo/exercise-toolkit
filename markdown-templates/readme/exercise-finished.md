@@ -1,8 +1,8 @@
 {% set socials_text -%}
 {%- if exercise_title -%}
-I just completed the "{{ exercise_title }}" GitHub Skills hands-on exercise! 🎉
+Acabo de completar el ejercicio "{{ exercise_title }}" de GitHub Skills! 🎉
 {%- else -%}
-I just completed a GitHub Skills hands-on exercise! 🎉
+Acabo de completar un ejercicio de GitHub Skills! 🎉
 {%- endif %}
 
 {{ repository_url }}
@@ -12,15 +12,13 @@ I just completed a GitHub Skills hands-on exercise! 🎉
 
 <div align="center">
 
-# 🎉 Congratulations {{ login }}! 🎉
+# 🎉 Enhorabuena {{ login }}! 🎉
 
 <img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
-### 🌟 You've successfully completed the exercise! 🌟
+### 🌟 Has completado el ejercicio! 🌟
 
-## 🚀 Share Your Success!
-
-**Show off your new skills and inspire others!**
+## 🚀 Compártelo en redes!
 
 <a href="https://twitter.com/intent/tweet?text={{ socials_text | urlencode }}" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
@@ -32,13 +30,13 @@ I just completed a GitHub Skills hands-on exercise! 🎉
   <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
 </a>
 
-### 🎯 What's Next?
+### 🎯 ¿Y ahora?
 
-**Keep the momentum going!**
+**Sigue investigando!**
 
 [![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)]({{ issue_url }})
 [![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills)
 
-*There's no better way to learn than building things!* 🚀
+*No hay mejor manera de aprender que construir por ti mismo!* 🚀
 
 </div>

@@ -2,24 +2,24 @@
 
 <img alt="original github octocat" src="https://octodex.github.com/images/original.png" align="left" height="80px" />
 
-👋 Hey there @{{ login }}! Welcome to your Skills exercise!
+👋 ¡Hola @{{ login }}!¡Bienvenido a este ejercicio!
 
 {{ intro_message }}
 
 ---
 
-✨ **This is an interactive, hands-on GitHub Skills exercise!**
+✨ **Este es un ejercicio interactivo de GitHub Skills!**
 
-As you complete each step, I’ll leave updates in the comments:
+Conforme vayas completando pasos, te iré actualizando con comentarios para:
 
-- ✅ Check your work and guide you forward
-- 💡 Share helpful tips and resources
-- 🚀 Celebrate your progress and completion
+- ✅ Verificar tu progreso y darte más instrucciones
+- 💡 Darte consejos y recursos
+- 🚀 Celebrar tus avances
 
-Let’s get started - good luck and have fun!
+Manos a la obra, ¡buena suerte!
 
 <sub>— Mona</sub>
 
 {%- if bug_report_url %}
-> <sub> If you encounter any issues along the way please report them [here]({{ bug_report_url}}).</sub>
+> <sub>Si encuentras algún problema, repórtalo aquí [here]({{ bug_report_url}}).</sub>
 {%- endif %}

@@ -2,10 +2,10 @@
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
-Hey {{ login }}!
+Hola {{ login }}!
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Mona al habla. ya he preparado tu ejecicio. ¡Espero que lo disfrutes! 💚
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Recuerda, puedes hacerlo a tu ritmo. ☕️
 
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)]({{ issue_url }})
